@@ -21,7 +21,7 @@
 
 * Conditional Rendering
 
-* Wtiting custon Hooks - eg: useBoolean()
+* Writing custon Hooks - eg: useBoolean()
 ```
 const useBoolean = (initialState = false) => {
 
