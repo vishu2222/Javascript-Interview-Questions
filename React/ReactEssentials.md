@@ -9,3 +9,62 @@
 
 3. What is virtualDOM? How's the context of using the virtualDOM better than updating the DOM directly?
   React uses a lightweight virtual representation of the actual web page called Virtual DOM to track changes made to the user interface. It updates the virtual copy and calculates the minimum changes needed to update the actual web page. Using Virtual DOM provides several benefits such as improved performance and a more responsive user experience.
+
+4. What is Redux and Why Redux?
+  Redux is a state management tool for javascript that centralizes application state in a single store and provides a clear seperation of concerns between states and UI components.
+  * Redux provides predictable and centralized state management, which makes it easy to reason about and maintain large scale javascript applications
+  * Redux also offers a clear seperation of concerns, code reusability, and has a large developer community.
+
+* Props vs State - Props and states are the plain javascript objects, props get passed t the component, whereas state is managed within the component.
+
+* JSX - stands for javascript XML. It allows writing HTML in javascript and converts the HTML tags into react elements.
+
+* Conditional Rendering
+
+* Wtiting custon Hooks - eg: useBoolean()
+```
+const useBoolean = (initialState = false) => {
+
+  const [state, useState] = useState(initialState)
+
+  const handleTrue = () => setState(true)
+  const handleFalse = () => setState(false)
+  const handleToggle = () => setState(!state)
+
+  return [
+    state, 
+    {
+      setTrue: handleTrue,
+      setFalse: handleFalse,
+      setToggle: handleToggle 
+    }
+  ]
+}
+
+// usage:
+
+function App() {
+  const [isToggle, {
+    setToggle,
+    setTrue,
+    setFalse,
+  }] = useBoolean(false);
+
+  return (
+    <div>
+      <button type="button" onClick={setToggle}>
+        Toggle
+      </button>
+      <button type="button" onClick={setTrue}>
+        To True
+      </button>
+      <button type="button" onClick={setFalse}>
+        To False
+      </button>
+
+      {isToggle.toString()}
+    </div>
+  );
+}
+
+ ```
