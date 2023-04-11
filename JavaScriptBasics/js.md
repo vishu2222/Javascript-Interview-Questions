@@ -6,11 +6,11 @@
 
 ### 2. what are the different datatypes in javaScript?
 
-- Primitive Data Types:<br>
-  Number, String, Boolean, Undefined, Null
-- None Primitive Data Types<br>
-  Array, Object (Arrays are not seperate, they are Object data type only)
-  Symbols are other special data types in JS.
+    - Primitive Data Types:
+    Number, String, Boolean, Undefined, Null
+    - None Primitive Data Types
+    Array, Object (Arrays are not seperate, they are Object data type only)
+    Symbols are other special data types in JS.
 
 ## 3. What is the difference between null and undefined in JavaScript?
 
@@ -62,13 +62,22 @@
 
 ## 21. What is the purpose of the Promise object in JavaScript? Provide an example of how you would use it.
 
-22. What is the difference between the async and defer attributes in JavaScript script tags?
-23. What is the difference between a primitive type and an object in JavaScript?
-24. What is the purpose of the event.preventDefault() method in JavaScript?
-25. What is the difference between the push and pop methods of an array in JavaScript?
-26. What is the difference between the shift and unshift methods of an array in JavaScript?
-27. What is the purpose of the bind method in JavaScript? Provide an example of how you would use it.
-28. What is the difference between the slice and splice methods of an array in JavaScript?
-29. What is the difference between a callback function and a promise in JavaScript?
-30. What is the difference between the querySelector and getElementById methods in JavaScript?
-31. What is the difference between the Object.keys() and Object.values() methods in JavaScript?
+## 22. What is the difference between the async and defer attributes in JavaScript script tags?
+
+## 23. What is the difference between a primitive type and an object in JavaScript?
+
+## 24. What is the purpose of the event.preventDefault() method in JavaScript?
+
+## 25. What is the difference between the push and pop methods of an array in JavaScript?
+
+## 26. What is the difference between the shift and unshift methods of an array in JavaScript?
+
+## 27. What is the purpose of the bind method in JavaScript? Provide an example of how you would use it.
+
+## 28. What is the difference between the slice and splice methods of an array in JavaScript?
+
+## 29. What is the difference between a callback function and a promise in JavaScript?
+
+## 30. What is the difference between the querySelector and getElementById methods in JavaScript?
+
+## 31. What is the difference between the Object.keys() and Object.values() methods in JavaScript?
