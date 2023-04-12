@@ -69,3 +69,24 @@ function App() {
 }
 
  ```
+5. What is useMemo(), What problem is it solving? 
+  - useMemo is used to memoize values, it can be used to optimize the computation costs of your React fucntional component.
+
+  ```javascript
+    function App() {
+    const [search, setSearch] = useState('')
+  
+
+  const filteredUsers = React.useMemo(
+    () =>
+      users.filter((user) => {
+        console.log('Filter function is running ...');
+        return user.name.toLowerCase().includes(search.toLowerCase());
+      }),
+    [search]
+  );
+
+  ...
+}
+  ```
+  The above filteredUsers's function is executed once the search state changes
