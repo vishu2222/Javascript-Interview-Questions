@@ -109,4 +109,7 @@ function App() {
    - Things to Know
       - DNS
       - IP
+      ```html
+      <img title='What Happens!' alt='This Happens!' src = './EbBWI0GWAAAeYhA.jpeg'
+      ```
       
