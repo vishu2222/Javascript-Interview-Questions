@@ -72,7 +72,7 @@ function App() {
 ## 5. What is useMemo(), What problem is it solving? 
   - useMemo is used to memoize values, it can be used to optimize the computation costs of your React fucntional component.
 
-  ```javascript
+```javascript
     function App() {
     const [search, setSearch] = useState('')
   
@@ -88,7 +88,7 @@ function App() {
 
   ...
 }
-  ```
+```
   The above filteredUsers's function is executed once the search state changes
 
 ## React Router
@@ -112,4 +112,8 @@ function App() {
 
       ![This Happens!](./EgBWI0GWAAAeYhA.jpeg)
       
-      
+## 8. What is Reconciliation   
+    - Reconciliation is the process by which React updates the user interface in response to changes in the state or props of a component. It is the algorithm used by React to efficiently determine which parts of the DOM need to be updated when a component's state or props change.
+
+## 9. What is an event loop?
+    - The event loop is a mechanism in JavaScript that allows for asynchronous execution of code by continuously checking the call stack and message queue for new tasks to execute. It ensures that the execution of long-running operations does not block the main thread and allows for efficient handling of I/O operations.
