@@ -8,19 +8,25 @@
 
     - Primitive Data Types:
     Number, String, Boolean, Undefined, Null
-    - None Primitive Data Types
-    Array, Object (Arrays are not seperate, they are Object data type only)
-    Symbols are other special data types in JS.
+    - Non-Primitive Data Types
+     Object
+    - Symbols are other special data types in JS.
 
 ## 3. What is the difference between null and undefined in JavaScript?
 
-    Null and Undefined indicates the absence of value. While null is an explicitly assigned value that indicates absence of an object where as undefined indicates no value is assigned despite initialization of a variable.
+    Null and Undefined indicates the absence of value.
+    While null is an explicitly assigned value that indicates
+    absence of an object where as undefined indicates no value is
+    assigned despite initialization of a variable.
 
 ## 4. What is an event in JavaScript? How would you handle an event?
 
-    An event is an action occured in the browser. some examples of events are mouse click and form submition. Events are used to trigger an action. To handle events in JS we can use addEventListner method to attach a function to the target element.
+    An event is an action occured in the browser. some examples of events are mouse click and form submition.
+    Events are used to trigger an action. To handle events in JS we can use addEventListner method to attach
+    a function to the target element.
 
-    ex: window.addEventListener('load', () => { do something }). The event is fired when the browser loads all the webpage resources like html, CSS and JS files
+    ex: window.addEventListener('load', () => { do something }).
+    The event is fired when the browser loads all the webpage resources like html, CSS and JS files
 
 #### what is window object in JS?
 
@@ -28,7 +34,7 @@
 
 ## 5. What are closures in JavaScript?
 
-    In JS, a closure is a feature that allows a function to access variables in the outer lexical scope, even after the outer function has returned. For example say we have a parent function that returns a child function. when the child function is returned after calling the parent function, the child function remembers the variables in the its scope and can access them despite the parent functions execution has already been terminated.
+    In JS, a closure is a feature that allows a function to access variables in its outer lexical scope. For example say we have a parent function that returns a child function. when the child function is returned after calling the parent function, the child function remembers the variables in its lexical scope and can access them despite the parent functions execution has already been terminated.
 
 ## 6. What is the difference between synchronous and asynchronous programming in JavaScript?
 
